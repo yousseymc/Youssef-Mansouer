@@ -1,0 +1,73 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.actions {
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #cc0000;
+}
+
+.progress {
+    background-color: #ddd;
+    border-radius: 5px;
+    height: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+}
+
+#progress-bar {
+    background-color: #4caf50;
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+    transition: width 0.3s;
+}
+
+#download-link {
+    text-decoration: none;
+}
+
+#download-btn {
+    background-color: #4caf50;
+}
+
+#download-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
