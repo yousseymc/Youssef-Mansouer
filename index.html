@@ -9,22 +9,17 @@
 <body>
     <div class="container">
         <h1>تحميل الملف</h1>
-        <p>للتحميل، يرجى إتمام الشرطين التاليين:</p>
-        
-        <div class="actions">
-            <button id="subscribe-btn" class="btn">اشترك في القناة</button>
-            <button id="like-btn" class="btn">أعجب بالفيديو</button>
-        </div>
-
-        <div class="progress">
+        <div id="progress">
             <div id="progress-bar"></div>
         </div>
-        
+        <button id="subscribe-btn" class="button" onclick="subscribe()">اشترك بالقناة</button>
+        <button id="like-btn" class="button" onclick="like()">اعجب بالفيديو</button>
+        <br>
         <a id="download-link" href="path/to/your/file.zip" download>
-            <button id="download-btn" class="btn" disabled>تحميل الملف</button>
+            <button id="download-btn" class="button" disabled>تحميل الملف</button>
         </a>
     </div>
 
-    <script src="re.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

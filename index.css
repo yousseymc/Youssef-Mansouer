@@ -1,73 +1,54 @@
-/* styles.css */
-
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #f0f0f0;
     margin: 0;
 }
 
 .container {
+    text-align: center;
     background: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
 
-h1 {
-    margin-bottom: 20px;
-}
-
-.actions {
-    margin-bottom: 20px;
-}
-
-.btn {
-    background-color: #ff0000;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    margin: 5px;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: #cc0000;
-}
-
-.progress {
-    background-color: #ddd;
-    border-radius: 5px;
-    height: 20px;
-    margin-bottom: 20px;
+#progress {
+    margin: 20px 0;
     width: 100%;
+    background-color: #ddd;
+    border-radius: 8px;
+    height: 20px;
     position: relative;
 }
 
 #progress-bar {
-    background-color: #4caf50;
-    height: 100%;
     width: 0;
-    border-radius: 5px;
-    transition: width 0.3s;
-}
-
-#download-link {
-    text-decoration: none;
-}
-
-#download-btn {
+    height: 100%;
     background-color: #4caf50;
+    border-radius: 8px;
+    transition: width 0.5s;
 }
 
-#download-btn:disabled {
-    background-color: #ccc;
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 16px;
+}
+
+.button:disabled {
+    background-color: #aaa;
     cursor: not-allowed;
+}
+
+.button:hover:not(:disabled) {
+    background-color: #0056b3;
 }
