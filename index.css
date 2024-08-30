@@ -21,14 +21,14 @@ body {
     width: 100%;
     background-color: #ddd;
     border-radius: 8px;
-    height: 20px;
+    height: 8px;
     position: relative;
 }
 
 #progress-bar {
     width: 0;
     height: 100%;
-    background-color: #4caf50;
+    background-color: #009705;
     border-radius: 8px;
     transition: width 0.5s;
 }
@@ -38,17 +38,50 @@ body {
     border: none;
     border-radius: 8px;
     color: #fff;
-    background-color: #007bff;
+    background-color: #ff0000;
     cursor: pointer;
     margin: 10px;
     font-size: 16px;
 }
 
 .button:disabled {
-    background-color: #aaa;
+    background-color: #7c7c7c;
     cursor: not-allowed;
 }
 
 .button:hover:not(:disabled) {
-    background-color: #0056b3;
+    background-color: #b44f4f;
 }
+
+
+
+
+body{
+    background: rgb(15, 15, 15);
+}
+
+div img{
+    width: 30%;
+}
+.container{
+    background: #2e2c2c;
+}
+.img{
+    width: 20px;
+
+}
+.im{
+  width: 20px;
+  margin-right: 6px;
+
+}
+.who{
+    color: #f0f0f0;
+}
+div img{
+    border-radius: 1200px;
+    width: 160px;
+}
+
+
+

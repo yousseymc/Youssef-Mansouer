@@ -2,13 +2,13 @@ let subscribeClicked = false;
 let likeClicked = false;
 
 function subscribe() {
-    window.open('https://www.youtube.com/channel/YOUR_CHANNEL_ID', '_blank');
+    window.open('https://www.youtube.com/@SupreYoussef', '_blank');
     subscribeClicked = true;
     updateProgress();
 }
 
 function like() {
-    window.open('https://www.youtube.com/watch?v=YOUR_VIDEO_ID', '_blank');
+    window.open('https://youtu.be/VJVvsdVBit0?si=NZcUIicVrz3od5Ja', '_blank');
     likeClicked = true;
     updateProgress();
 }
