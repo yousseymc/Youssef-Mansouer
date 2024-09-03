@@ -2,13 +2,13 @@ let subscribeClicked = false;
 let likeClicked = false;
 
 function subscribe() {
-    window.open('https://www.youtube.com/@SupreYoussef', '_blank');
+    window.open('https://www.youtube.com/@YouSSef-Mansour-YM', '_blank');
     subscribeClicked = true;
     updateProgress();
 }
 
 function like() {
-    window.open('https://youtu.be/VJVvsdVBit0?si=NZcUIicVrz3od5Ja', '_blank');
+    window.open('https://youtu.be/EfncuO1z8U4?si=4mns4U6SA9_aFsPB', '_blank');
     likeClicked = true;
     updateProgress();
 }
